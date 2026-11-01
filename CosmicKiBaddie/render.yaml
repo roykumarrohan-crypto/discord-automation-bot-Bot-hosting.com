@@ -1,0 +1,12 @@
+services:
+  - type: worker
+    name: cosmic-ki-baddie
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.8
+      - key: SYNC_COMMANDS_ON_STARTUP
+        value: "true"

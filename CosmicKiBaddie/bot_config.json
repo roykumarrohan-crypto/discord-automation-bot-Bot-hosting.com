@@ -1,0 +1,13 @@
+{
+  "_comment": "Bot-Hosting.net / Pterodactyl Quick Configuration File. Paste your Discord Bot Token below!",
+  "DISCORD_TOKEN": "PASTE_YOUR_DISCORD_BOT_TOKEN_HERE",
+  "BOT_NAME": "Cosmic ki baddie",
+  "COMMUNITY_NAME": "Side Quest Studio",
+  "DEFAULT_PREFIX": "!",
+  "BOT_STATUS": "Side Quest Studio | /help",
+  "OWNER_IDS": "",
+  "DEV_GUILD_ID": "",
+  "SYNC_COMMANDS_ON_STARTUP": true,
+  "DATABASE_URL": "sqlite:///./data/cosmic_ki_baddie.db",
+  "LOG_LEVEL": "INFO"
+}
